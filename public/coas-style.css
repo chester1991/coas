@@ -1,0 +1,53 @@
+@import url(bootstrap/css/bootstrap.min.css);
+@import url(dist/fontawesome/css/all.css);
+
+@font-face {font-family: Oxygen;src: url('dist/fonts/Oxygen/Oxygen-Regular.ttf');}
+
+body{background-color: #eee;font-family: 'Oxygen',sans-serif;font-size: 16px;}
+.login-center{margin-top:100px;}
+.ads{background-color: #fff; background-size: cover;outline:2px solid #04401f;}
+.logo{text-align:center;padding:10px;background-color: #04401f;}
+.login-txt{font-weight: bold;color: #fff;}
+.login-txt-p{color: #fff;font-weight: normal;}
+.input-border{border: 2px solid #ffff66;padding: 4px;border-radius: 14px 14px;}
+.login ::placeholder {color: #333;font-size: 1.5rem;text-transform: lowercase;text-align: center;}
+.login input:focus::placeholder {color: transparent;}
+.login input{text-align:center;}
+.lead{font-size: 18px;font-family: 'Oxygen',sans-serif;color: #000}
+.loader{position: fixed;top: 0;left: 0;width: 100vw;height: 100vh;display: flex;align-items: center;justify-content: center;background: #333333;transition: opacity 0.75s, visibility 0.75s;}
+.loader--hidden{opacity: 0;visibility: hidden;}
+.loader::after{content: "";width: 85px;height: 85px;border:  15px solid #ffff66;border-top-color: #04401f;border-radius: 50%;animation: loading 0.75s ease infinite;}
+@keyframes loading{from { transform: rotate(0turn) } to { transform: rotate(1turn) }}
+.bg-dashboard{background-color: #fff;margin: 20px auto;}
+.navbar-default{border-radius: 0px;border: 0px;background-color: #04401f;height: 60px;}
+.navbar-default a{margin-top:5px;}
+.navbar-header img{padding: 10px;}
+.navbar-default .navbar-brand{color: #fff;}
+footer{bottom: 0; width: 100%;height: auto;background-color: #04401f;}
+.text-muted{padding-top: 10px; text-align: center;color: #fff;font-size: 12px !important;}
+.sidebar-menu{background-color: #fff; padding: 10px 10px 10px 10px;margin: 20px 20px 10px 20px; border-radius: 5px;}
+.workspace-top {background-color: #fff;border-radius: 5px;padding: 22px 10px 10px 10px; margin: 10px 10px;}
+.sidebar-icon:hover{background-color: #ffff66;border: 0px;color: #04401f;}
+.sidebar-icon{margin-bottom: 10px;color: #04401f;}
+.sidebar-link{font-family: 'Oxygen',sans-serif;font-size: 14px;}
+.page-header{border-bottom: 1px solid #04401f;}
+.fa-mug-hot{color:#04401f;}
+.btn-warning{color: #000;background-color: #ffff66 !important;border-color: #ffff66;}
+.btn-warning:hover{color: #000;background-color: #fff !important;border-color: #ffff66;}
+.alert-login{color: #fff !important;font-size: 12px;font-style: italic;animation: blinker 1s linear infinite;}
+@keyframes blinker {  50% { opacity: 0; }}
+.checkbox{color: #fff !important;font-size: 12px;}
+.user-txt{color: #fff !important;font-size: 12px;margin-top: 5px;}
+a:hover {text-decoration: none;}
+#notifDiv{ z-index: 10000;display: none;margin:10px;border: 1px solid transparent;border-radius: 4px;color:#fff;}
+.breadcrumb-link{color:#04401f;}
+.breadcrumb-link:hover{color:#000;}
+a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, button.list-group-item:hover{background-color: #ffff66;}
+.label{line-height:2;}
+.scrollme {overflow-x: auto;}
+.coas_camera{width: 322px;height: 240px;border: 2px solid #04401f;}
+.capture_snapshot{margin:5px;border-radius: 0px;}
+.coas_camera_result{width: 322px;height: 240px;border: 2px solid #04401f;}
+.searchclub{padding-top: 18px;margin-bottom: 10px;}
+.container .jumbotron, .container-fluid .jumbotron{padding-right: 10px; padding-left: 10px;}
+.slist{height:600px;overflow:auto;}
